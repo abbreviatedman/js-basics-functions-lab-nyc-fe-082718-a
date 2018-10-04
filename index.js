@@ -61,5 +61,9 @@ function distanceFromHqInFeet(location) {
 }
 
 function distanceTravelledInFeet(location1, location2) {
-  return abs(location1 - location2) * 264
+  return distanceTravelledInBlocks(location1, location2) * 264
+}
+
+function distanceTravelledInBlocks(location1, location2) {
+  
 }
