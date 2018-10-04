@@ -43,7 +43,7 @@
 
 
 function distanceFromHqInBlocks() {
-  
+  // return the distance in blocks from 42nd street
 }
 
 
