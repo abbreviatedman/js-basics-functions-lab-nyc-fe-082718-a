@@ -69,6 +69,8 @@ function distanceTravelledInBlocks(location1, location2) {
 }
 
 function calculatesFarePrice(location1, location2) {
+  const feetTravelled = distanceTravelledInFeet(location1, location2);
+  
   // if the distance is less than 400 feet, return 0
   if (distanceTravelledInFeet(location1, location2) < 400) {
     return 0;
