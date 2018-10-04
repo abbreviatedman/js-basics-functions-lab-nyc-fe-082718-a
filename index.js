@@ -42,7 +42,9 @@
 
 
 
-
+function distanceFromHqInBlocks() {
+  
+}
 
 
 
