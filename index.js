@@ -48,7 +48,7 @@ function distanceFromHqInBlocks(location) {
 }
 
 function abs(number) {
-  return number
+  return number;
 }
 
 
