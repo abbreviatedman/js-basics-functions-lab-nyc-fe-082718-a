@@ -51,7 +51,7 @@ function abs(number) {
 
 function distanceFromHqInBlocks(location) {
   // return the distance from location to 42nd street
-  return abs(hq - location);
+  return distanceTravelledInBlocks(hq, location);
 }
 
 
