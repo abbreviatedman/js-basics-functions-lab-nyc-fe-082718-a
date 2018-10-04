@@ -38,13 +38,13 @@
 
 
 
-
+const hq = 42;
 
 
 
 function distanceFromHqInBlocks(location) {
   // return the distance from location to 42nd street
-  return abs(42 - location);
+  return abs(hq - location);
 }
 
 function abs(number) {
