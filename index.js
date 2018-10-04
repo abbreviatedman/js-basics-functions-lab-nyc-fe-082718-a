@@ -42,8 +42,10 @@
 
 
 
-function distanceFromHqInBlocks() {
-  // return the distance in blocks from 42nd street
+function distanceFromHqInBlocks(location) {
+  // return the distance from location to 42nd street
+  // return Math.abs(42 - location);
+  return 42 - location;
 }
 
 
