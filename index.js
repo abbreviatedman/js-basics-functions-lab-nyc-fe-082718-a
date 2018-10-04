@@ -65,5 +65,5 @@ function distanceTravelledInFeet(location1, location2) {
 }
 
 function distanceTravelledInBlocks(location1, location2) {
-  return abs(location1 - location);
+  return abs(location1 - location2);
 }
