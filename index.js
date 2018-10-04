@@ -61,5 +61,5 @@ function distanceFromHqInFeet(location) {
 }
 
 function distanceTravelledInFeet(location1, location2) {
-  return location1 location2;
+  return location1 location2 * 264
 }
