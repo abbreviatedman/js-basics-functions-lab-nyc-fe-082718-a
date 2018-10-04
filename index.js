@@ -56,7 +56,9 @@ function abs(number) {
 }
 
 function distanceFromHqInFeet(location) {
-  
+  // 1 block === 264 feet
+  return abs(42 - location) * 264
 }
 
+distanceFromHqInFeet(34);
 
