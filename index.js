@@ -80,5 +80,5 @@ function calculatesFarePrice(location1, location2) {
     return 25;
   }
   
-  
+  return 'cannot travel that far';
 }
