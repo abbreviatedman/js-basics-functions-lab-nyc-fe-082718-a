@@ -55,7 +55,7 @@ function abs(number) {
   return number;
 }
 
-
+const distance = distanceFromHqInBlocks(34);
 
 
 
