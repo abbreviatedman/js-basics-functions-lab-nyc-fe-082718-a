@@ -77,6 +77,8 @@ function calculatesFarePrice(location1, location2) {
   } else if (feetTravelled < 2000) {
     return ( (feetTravelled - 400) * .02 )
   } else if (feetTravelled < 2500) {
-    
+    return 25;
   }
+  
+  
 }
