@@ -40,13 +40,6 @@
 
 const hq = 42;
 
-
-
-function distanceFromHqInBlocks(location) {
-  // return the distance from location to 42nd street
-  return abs(hq - location);
-}
-
 function abs(number) {
   if (number < 0) {
     return number * -1;
@@ -54,6 +47,13 @@ function abs(number) {
   
   return number;
 }
+
+
+function distanceFromHqInBlocks(location) {
+  // return the distance from location to 42nd street
+  return abs(hq - location);
+}
+
 
 function distanceFromHqInFeet(location) {
   // 1 block === 264 feet
@@ -65,5 +65,5 @@ function distanceTravelledInFeet(location1, location2) {
 }
 
 function distanceTravelledInBlocks(location1, location2) {
-  
+  return abs(location1 - location);
 }
